@@ -50,6 +50,12 @@ public class Tarea01 {
             System.out.println(cad);
             System.out.println(cad + "$$");
         }
-        
+        // El ultimo valor que se leda a la variable cad va a concatenar Número + 99, que va a arrojar la cadena "Número 99"
+        // Despues el if va a evaluar si la longitud del nuevo valor de cad en menor a 9 caracrteres, como no es menor sino igual a 9
+        // ejecutara el contenido en else:
+        // >>Número 99
+        // >>Número 99$$
+        // Se ejecutara lo anterior en dos lineas distintas, una para cada println()
+
     }
 }
