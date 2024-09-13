@@ -6,7 +6,7 @@ public class Animal{
     private boolean domestico;
 
     //
-    //Constructor
+    //Constructores
     //
     public Animal(String nombre, boolean mamifero, String sonido, boolean domestico) {
         this.nombre = nombre;
@@ -79,7 +79,7 @@ public class Animal{
         Animal tigre = new Animal("Tigre", true, "rugido", false);
         tigre.mostratInfo();
         System.out.println("\n");
-        Animal perro = new Animal("Perro", true, "ladrido", true);
+        Animal perro = new Animal("Perro", "ladrido", true);
         perro.mostratInfo();
         System.out.println("\n");
         Animal gato = new Animal("Gato",true);
